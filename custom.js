@@ -99,7 +99,7 @@ $(document).ready(function() {
     }
 
     $.ajax({
-        url: 'https://www.mohfw.gov.in/dashboard/data/data.json',
+        url: 'https://www.mohfw.gov.in/data/data.json',
         type: 'GET',
         dataType: 'json',
         data: {},
